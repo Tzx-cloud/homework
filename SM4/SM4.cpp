@@ -213,10 +213,6 @@ int main() {
 		list[i].join();
 	}
 	printf("%llf clock/byte",(double)(clock()-time)/LEN_MAX);
-
-	// print("key:");
-	//print(key, 16);
-
 	return 0;	
 }
 
