@@ -92,4 +92,12 @@ static const char *ENTL_ID = "008031323334353637383132333435363738";
 //     BN_mod_mul(s, a, b, n, ctx);
 //     response.rlen = BN_bn2bin(r, response.r);
 //     response.slen = BN_bn2bin(s, response.s);
+//     printf("r: ");
+//     for(int i=0;i<32;i++){
+//          printf("%02X ",response.r[i]);
+//     }
+//     printf("\ns: ");
+//     for(int i=0;i<32;i++){
+//          printf("%02X ",response.s[i]);
+//     }
 // }
