@@ -133,5 +133,13 @@ struct Alice
 //     unsigned char r[32],s[32];
 //     BN_bn2bin(bOb.r_s.r,r);
 //     BN_bn2bin(bOb.r_s.s,s); 
+//      printf("r: ");
+//      for(int i=0;i<32;i++){
+//         printf("%02X ",r[i]);
+//      }
+//      printf("\ns: ");
+//      for(int i=0;i<32;i++){
+//         printf("%02X ",s[i]);
+//      }
 // }
 
