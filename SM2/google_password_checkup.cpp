@@ -124,7 +124,7 @@ struct server{
 }google;
 
 int main(){
-    client a("alice0","123456");
+    client a("alice","123456");
     //客户端发送请求
     a.make_res();
     //初始化库
