@@ -15,7 +15,12 @@ unordered_map<string,long long> hash_map;//利用哈希表加快查表
 //            }
 //           auto it=hash_map.find(s);
 //           if(it!=hash_map.end()){
-//               printf("%lld,%lld,%s",input[0],it->second,s.c_str());
+//               printf("%lld,",it->second);
+//               printf("%lld,",input[0]);
+//               printf("\n");
+//               for(int i=0;i<6;i++){
+//                    printf("%02X ",output[i]);
+//               }
 //               return 0;
 //           }
 //           hash_map[s]=input[0]++;
